@@ -1,0 +1,187 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+/* header */
+/* top header */
+.header, main {
+    width: 1200px;
+    margin: 20px auto;
+}
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ /* soc site links */
+.soc-site-link:not(:last-child) {
+    margin-right: 16px;
+}
+/* contact */
+.contact-number {
+    display: flex;
+    align-items: center;
+}
+.contact-div {
+    display: flex;
+    align-items: center;
+    gap: 0 30px;
+}
+.contact-number p {
+    margin-left: 8px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #000000;
+}
+/* document button */
+.document-button {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 22px;
+    letter-spacing: 0.17em;
+    color: #FFFFFF;
+    background-color: #000;  
+    border-radius: 4px;
+    width: 177px;
+    height: 30px;
+    border: 0;
+}
+/* bottom header nav */
+.nav-menu-header {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 0 10px;
+
+}
+.nav-menu-links {
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.01em;
+    color: #000000;
+    background: #F2F2F2;
+    border-radius: 28px;
+    flex-grow: 1;
+    text-align: center;
+    padding: 4px 0;
+}
+/* main */
+/* wrappers */
+/* wrapper learning novgorod */
+.wrappers-start-screen {
+    margin-top: 65px;
+    display: flex;
+}
+.wrapper-learning-novgorod {
+    background: url(../assets/background-wapper-learning-novgorod.jpg) no-repeat;
+    height: 416px;
+    width: 720px;
+    padding: 40px;
+    position: relative;
+}
+.discription-learning-novgorod {
+    font-family: 'Inter';
+    font-style: normal;
+    color: #000000;
+}
+.discription-learning-novgorod h1 {
+    font-weight: 800;
+    font-size: 55px;
+    line-height: 60px;
+    width: 550px;
+    margin: 0;
+}
+.discription-h1-learning-novgorod {
+    font-size: 22px;
+    line-height: 40px;
+    width: 500px;
+}
+.terms-learning-novgorod {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    margin-top: 70px;
+}
+.share-button-wrapper {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    background: none;
+    border: 0;
+    opacity: 0.4;
+}
+.novgorod-photo {
+    width: 135px;
+    height: 135px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+}
+/* test your choose learning */
+
+.lines-header-choose {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.disable-line {
+    opacity: 40%;
+}
+.test-your-choose-learning {
+    background: #000;
+    color: #fff;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    padding: 40px;
+    width: 305px;
+    height: 425px;
+}
+.heading-choose-learning h2 {
+    line-height: 40px;
+    margin: 0;
+    font-size: 22px;
+}
+.heading-choose-learning p {
+    font-size: 13px;
+    line-height: 22px;
+    text-align: right;
+    color: #787878;
+}
+.heading-choose-learning {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+.question-test-choose {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px 8px;
+}
+.answer-question-test-choose {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    /* letter-spacing: 0.01em; */
+    color: #A8A8A8;
+    background: none;
+    border: 1px solid #282828;
+    border-radius: 40px;
+    padding: 4.5px 11px;
+    flex-grow: 1;
+}
